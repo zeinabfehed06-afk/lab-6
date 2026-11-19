@@ -1,1 +1,33 @@
-
+:root {
+  --bs-primary-bg: midnightblue;
+  --bs-primary-fg: midnightblue;
+  --bs-primary-fg-emphasis: midnightblue;
+  --bs-primary-border: midnightblue;
+  --bs-primary-focus-ring: lightsteelblue;
+  --bs-primary-contrast: white;
+}
+.btn-solid.theme-primary {
+  --bs-theme-bg: midnightblue;
+  --bs-theme-border: midnightblue;
+  --bs-theme-contrast: white;
+}
+body {
+  background-color: lemonchiffon;
+  color: midnightblue;
+}
+.navbar, footer {
+  background-color: lightgoldenrodyellow;
+  color: midnightblue;
+}
+.navbar a, .navbar-brand, .nav-link {
+  color: midnightblue;
+}
+.card, .dialog, .drawer {
+  background-color: white;
+  color: midnightblue;
+}
+.form-control, .check {
+  background-color: white;
+  border: 1px solid midnightblue;
+  color: midnightblue;
+}
